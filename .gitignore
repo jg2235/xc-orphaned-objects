@@ -1,0 +1,20 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# scan outputs (contain tenant object names)
+xc-unused-objects-out/
+xc-unused-*.html
+xc-unused-*.json
+xc-unused-*.csv
+xc-unused-cleanup-*.sh
+!docs/sample-report.html
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
